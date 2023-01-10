@@ -17,12 +17,12 @@ function App() {
               {
                 // メッセージを送信する
                 type: "text",
-                text: "You've successfully sent a message! Hooray!",
+                text: "こんにちは",
               },
             ])
-            .then(function () {
-              window.alert("Message sent");
-            })
+            // .then(function () {
+            //   window.alert("Message sent");
+            // })
             .catch(function (error) {
               window.alert("Error sending message: " + error);
             });
