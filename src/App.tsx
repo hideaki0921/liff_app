@@ -74,10 +74,10 @@
 // export default App;
 
 
-
+import React from "react";
 import { useRef, useState, useCallback } from "react";
 import Webcam from "react-webcam";
-import "./styles.css";
+import "./App.css";
 
 const videoConstraints = {
   width: 720,
